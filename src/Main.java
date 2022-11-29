@@ -1,13 +1,14 @@
 public class Main {
     public static void main(String[] args) {
         var dog = 8;
-        dog = dog + 4;
-        System.out.println(dog);
+        var hotDog = dog - 3.5;
+        System.out.println(hotDog);
         var cat = 3.6;
-        cat = cat + 4;
-        System.out.println(cat);
+        var greenCat = cat - 1.6;
+        System.out.println(greenCat);
         var paper = 763789;
-        paper = paper + 4;
-        System.out.println(paper);
+        var blackPaper = paper - 7639;
+        System.out.println(blackPaper);
+
     }
 }
